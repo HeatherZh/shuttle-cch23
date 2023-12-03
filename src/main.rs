@@ -1,5 +1,4 @@
 use axum::{extract::Path, routing::get, Router};
-use std::ops::BitXor;
 
 async fn hello_world() -> &'static str {
     "Hello, world!"
